@@ -1,44 +1,61 @@
-# tienda-virtual-vue
+Tienda Virtual Vue
 
-This template should help get you started developing with Vue 3 in Vite.
+Aplicación de comercio electrónico desarrollada con Vue 3, que permite visualizar productos, gestionar un carrito de compras y administrar productos, cupones y ventas mediante Firebase.
 
-## Recommended IDE Setup
+Tecnologías utilizadas
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+Vue 3— construcción de interfaces con componentes.
+Vite — entorno de desarrollo y compilación.
+Pinia — gestión del estado de la aplicación.
+Vue Router — navegación entre vistas.
+Firebase / Firestore — almacenamiento y gestión de datos.
+Tailwind CSS — diseño y estilos de la interfaz.
+FormKit — construcción y validación de formularios.
+JavaScript — lógica de la aplicación.
 
-## Recommended Browser Setup
+Funcionalidades
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
+- Visualización del catálogo de productos.
+- Carrito de compras.
+- Gestión del estado del carrito.
+- Administración de productos.
+- Gestión de cupones de descuento.
+- Registro y consulta de ventas.
+- Integración con Firebase y Firestore.
+- Navegación mediante Vue Router.
 
-## Customize configuration
+Instalación y ejecución
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+1. Clonar el repositorio
+   git clone URL_DE_TU_REPOSITORIO
 
-## Project Setup
+2. Entrar en la carpeta
+   cd Tienda-Virtual-Vue
 
-```sh
-npm install
-```
+3. Instalar dependencias
+   npm install
 
-### Compile and Hot-Reload for Development
+4. Configurar las variables de entorno
 
-```sh
+Crea un archivo `.env.local` en la raíz del proyecto y configura las variables que utiliza la aplicación:
+
+.env
+
+VITE_FIREBASE_API_KEY=
+VITE_FIREBASE_AUTH_DOMAIN=
+VITE_FIREBASE_PROJECT_ID=
+VITE_FIREBASE_STORAGE_BUCKET=
+VITE_FIREBASE_MESSAGING_SENDER_ID=
+VITE_FIREBASE_APP_ID=
+
+Completa los valores con la configuración de tu proyecto Firebase.
+
+5. Iniciar el servidor de desarrollo
+
 npm run dev
-```
-
-### Compile and Minify for Production
-
-```sh
+Compilar para producción
 npm run build
-```
 
-### Lint with [ESLint](https://eslint.org/)
+👨‍💻 Autor
 
-```sh
-npm run lint
-```
+Desarrollado como proyecto de aprendizaje y práctica de desarrollo web con Vue 3 y Firebase.
