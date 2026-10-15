@@ -27,7 +27,7 @@ Funcionalidades
 Instalación y ejecución
 
 1. Clonar el repositorio
-   git clone URL_DE_TU_REPOSITORIO
+   git clone https://github.com/fernando-drp/Tienda-Virtual-Vue.git
 
 2. Entrar en la carpeta
    cd Tienda-Virtual-Vue
@@ -58,4 +58,4 @@ npm run build
 
 👨‍💻 Autor
 
-Desarrollado como proyecto de aprendizaje y práctica de desarrollo web con Vue 3 y Firebase.
+Desarrollado por el Ing.Fernando De La Rosa Palma como proyecto de aprendizaje y práctica de desarrollo web con Vue 3 y Firebase.
